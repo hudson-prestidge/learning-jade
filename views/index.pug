@@ -6,4 +6,21 @@ html
     h1= message
     a(href='https://www.google.com') Link to Google
     ='\n'
-    a(class='button' href='https://www.google.com') Link to Google
+    a(class='button' href='https://www.reddit.com') Link to Reddit
+    - var authenticated = true
+    p(class=authenticated ? 'authed' : 'anon')
+    span Should this box be checked?
+    input(
+      type='checkbox'
+      name='agreement'
+      checked
+    )
+    //- not sure about forcing a linebreak here, but it's interesting to see how it's done
+    br
+    input(data-something=`
+      {
+        "test": "all",
+        "the": "things"
+      }
+    ` type='text'
+    )

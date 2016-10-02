@@ -24,3 +24,15 @@ html
       }
     ` type='text'
     )
+    -var url = 'https://dev-quest.herokuapp.com'
+    a(href=url) Dev-Quest!
+    -var btnType='info'
+    -var btnSize='large'
+    button(class=`btn btn-${btnType} btn-${btnSize}`)
+    //- inline styling D: has some neat properties though
+    a(style={color: 'red', background: 'blue'}) test
+    -var classes=['testclass', 'otherclass', 'yougettheidea']
+    p(class=classes) this text has a bunch of classes!
+    p.hugetext yo
+      #content this is a div with a bunch of text in it with id content!
+      a#notcontent(href=url) it's inside the p tag!

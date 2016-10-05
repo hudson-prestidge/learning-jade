@@ -10,12 +10,15 @@ body {
   width: 80px;
   text-align: center;
   border: 1px solid black;
+  width: 12.5%;
 }
 
 .authed {
-  height: 40px;
-  width: 40px;
-  background-color: red;
+  background-color: maroon;
+  min-height: 50px;
+  min-width: 50px;
+  width: 12.5%;
+  height: 12.5%;
 }
 
 .btn-info {

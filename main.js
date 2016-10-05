@@ -10,7 +10,7 @@ const PORT = 3000
 
 app.set('view engine', 'pug')
 
-// app.use('/css', express.static(path.join(__dirname, '/stylesheets')))
+// app.use('/', express.static(path.join(__dirname, '/stylesheets')))
 
 app.use('/css', sassMiddleware({
   src: path.join(__dirname, '/sass'),

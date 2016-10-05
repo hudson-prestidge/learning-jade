@@ -1,6 +1,7 @@
 @import url(fonts.googleapis.com/css?family=Ruslan+Display);
 body {
   font-family: 'Ruslan-Display', sans-serif;
+  color: #614296;
 }
 
 .button {
@@ -27,5 +28,6 @@ body {
 }
 
 .hugetext {
+  color: #666666;
   font-size: 40px;
 }

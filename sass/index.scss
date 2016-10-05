@@ -1,7 +1,9 @@
 @import url(fonts.googleapis.com/css?family=Ruslan+Display);
+$primaryColor: #614296;
 
 body {
   font-family: 'Ruslan-Display', sans-serif;
+  color: $primaryColor;
 }
 
 .button {
@@ -28,5 +30,7 @@ body {
 }
 
 .hugetext {
+  $primaryColor: #666666;
+  color: $primaryColor;
   font-size: 40px;
 }
